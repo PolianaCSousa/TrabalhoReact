@@ -4,7 +4,7 @@ import Galeria from './components/pages/Galeria'
 import Lista from './components/pages/Lista'
 import ListaAPI from './components/pages/ListaAPI'
 import Carro from './components/pages/Carro'
-import NavBar from './components/layout/Navbar'
+import NavBar from './components/layout/NavBar'
 
 function Main(){
     return(
