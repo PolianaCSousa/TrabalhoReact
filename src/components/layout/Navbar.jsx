@@ -13,7 +13,7 @@ function NavBar() {
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/galeria">Galeria</Nav.Link>
-                    <Nav.Link href="/lista">Lista</Nav.Link>
+                    <Nav.Link href="/listafrutas">Lista Frutas</Nav.Link>
                     <Nav.Link href="/carro">Carro</Nav.Link>
                     <Nav.Link href="/listaapi">Lista API</Nav.Link>
                 </Nav>
