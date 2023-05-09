@@ -1,15 +1,12 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-//import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
-//import { react } from 'https://fontawesome.com/icons/react?f=brands&s=solid&an=spin'
-
+import { FaReact } from 'react-icons/fa'
 
 function NavBar() {
     return(
         <>
-            <Navbar bg="dark" variant="dark">
-                
-                <Navbar.Brand>Trabalho1</Navbar.Brand>
+            <Navbar bg="dark" variant="dark" expand="md">
+                <Navbar.Brand><FaReact size="2em" className='me-2'/>Trabalho1</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/galeria">Galeria</Nav.Link>

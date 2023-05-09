@@ -5,6 +5,7 @@ import ListaFrutas from './components/pages/ListaFrutas'
 import ListaAPI from './components/pages/ListaAPI'
 import Carro from './components/pages/Carro'
 import NavBar from './components/layout/NavBar'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Main(){
     return(
